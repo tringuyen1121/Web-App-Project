@@ -1,0 +1,84 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(244,244,244);
+}
+a{
+    text-decoration: none;
+}
+/*-----------------------------------------------------------------------------------------
+                                         MAIN
+-----------------------------------------------------------------------------------------*/
+main{
+    margin: 100px;
+    text-align: center;
+}
+.hidden{
+    display: none!important;
+}
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    margin: 30px 0; 
+    color: rgb(100,100,100);
+    display: inline-block;
+}
+
+#setting-form{
+    display: inline-block;
+    margin: auto;
+    text-align: left;
+}
+
+#setting-form > label{
+    margin: 20px 0 5px 5px;
+    font-family: 'Cabin', sans-serif;
+    color: rgb(100,100,100);
+    font-size: 20px;
+}
+
+#setting-form > input, #setting-form >textarea{
+    display: block;
+    font-size: 20px;
+    margin: 5px 0 10px 5px;
+}
+
+#setting-form >textarea{
+	font-family: 'Cabin', sans-serif;
+    color: rgb(100,100,100);
+	width: 100%;
+}
+#submit{
+    height: 50px;
+    width: 50%;
+    background-color: white;
+    border: 2px solid rgb(20,80,160);
+    color: rgb(20,80,160);
+    margin-top: 40px;
+}
+
+.gender{
+    display: inline-block!important;
+    margin: 20px 5px!important;
+}
+.button{
+    margin: 5px!important;
+    width: 35%!important;
+    height: 40px!important;
+    background-color: rgb(0,120,250)!important;
+    border:none!important;
+    font-family: 'Cabin', sans-serif!important;
+    color: white!important;
+    font-size: 22px!important;
+    cursor:pointer!important;
+}
+span{
+    font-family: 'Cabin', sans-serif;
+    color: rgb(100,100,100);
+    font-size: 20px;	
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link href="css/upload.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin|Josefin+Sans|Catamaran" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <div id="upload-box">
+            <h4 id="upload-text"> Upload a picture </h4>
+            <form method="post" id="upload-form" action="Upload.do" enctype="multipart/form-data">
+                <div class="upload-wrapper">
+                    <input id="browse-btn" class="button" type="button" value="Browse"/>
+                    <input type="submit" value="Upload" class="upload button" id="upload">
+                    <input id="cancel-btn" class="button" type="button" value="Cancel" />
+                    <input type="file" name="..." id="upload-field">
+                </div>
+            </form>
+        </div>
+
+        <div id="float-btn">
+            <img src="image/icons/upload.gif">	
+        </div>
+        <script type="text/javascript" src="js/upload.js"></script>
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#upload').bind("click", function ()
+                {
+                    var imgVal = $('#upload-field').val();
+                    if (imgVal == '')
+                    {
+                        alert("You haven't choose any pictures!");
+                        return false;
+                    }
+
+
+                });
+            });
+        </script> 
+        <script>
+            document.getElementById('browse-btn').addEventListener('click', function () {
+                document.getElementById('upload-field').click();
+            });
+            document.getElementById('float-btn').addEventListener('click', function () {
+                document.getElementById('upload-box').style.display = 'block';
+            });
+
+            document.getElementById('cancel-btn').addEventListener('click', hideUploadBox);
+
+            document.querySelector('body').addEventListener('click', function (event) {
+                if (event.target.id != 'upload-box') {
+                    hideUploadBox;
+                }
+            });
+        </script>
+    </body>
+</html>

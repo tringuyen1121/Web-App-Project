@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link href="css/image.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin|Josefin+Sans" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="wrapper">
+                <div class="left logo">
+                    <a href="index.html"><img src="image/logo.gif" alt="Creatopia"/></a>
+                </div>
+                <div class="center">
+                    <form method="get" id="search-form">
+                        <input class="search-box" type="text" name="search" placeholder="Search..." />
+                    </form>
+                </div>
+                <div class="right">
+                    <a class="sign-in" href="login.html">SIGN IN</a>
+                </div>
+            </div>
+        </header>
+
+
+
+        <main>
+            <div id="img-container">
+                <div id="user-n-img">
+                    <div id="user">
+                        <img width="60px" height="60px" src="upload/avatar/user.jpg">
+                        <div id="username"><a href><h3>Username</h3></a></div>
+                    </div>
+                    <div id="img-wrapper">
+                        <img src="upload/thumb/hallstatt.jpg">
+                    </div>
+                </div>
+
+
+                <div id="img-info">
+                    <div id="hidden"></div>
+                    <div id="img-name">
+                        <h3>Something</h3>
+                    </div>
+                    <div id="img-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div id="img-stats">
+                        <div id="like-wrapper">
+                            <div id="like-icon">
+                                <img src="image/icons/like.gif" width="35px">
+                            </div>
+                            <span id="num-like">49</span>
+                        </div>
+                        <div id="comment-wrapper">
+                            <div id="form-wrapper">
+                                <form method="post">
+                                    <textarea name="textarea" rows="4" class="form-control status-box" placeholder="Enter your comment here..."></textarea>
+                                    <input type="submit" id="submit" name="submit" class="submit button" value="POST">
+                                </form>
+                            </div>
+                            <div id="comment-list-wrapper">
+                                <ul id="comment-list">
+                                    <li class="comment">
+                                        <a href="#">username1</a>
+                                        <p> Proin vestibulum sed leo ac euismod. </p>
+                                    </li>
+                                    <li class="comment">
+                                        <a href="#">username2</a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ex eget purus pellentesque gravida. Praesent risus nisl, fermentum eu tortor elementum, malesuada tempus elit.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+        <footer>
+            <div class="footer-inner">
+                <div class="footer-col footer-left">
+                    <a class="logo" href="index.html"><img src="image/logo-grey.gif" alt="Creatopian"/></a>
+                    <!-- <div class="description">
+                            <p> A land for creatives sharing their works, projects, and process. Looking for an inspiration? You're on the right track.</p>
+                    </div> -->
+                </div>
+                <div class="footer-col footer-right">
+                    <ul class="extra-links">
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/help">Help</a></li>
+                        <li><a href="/contact">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright"> Created in 2016. No Rights Reserved ... Yet </p>
+        </footer>
+    </body>
+</html>

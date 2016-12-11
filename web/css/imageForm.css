@@ -1,0 +1,87 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(244,244,244);
+}
+/*------------------------------------------------------------*/
+
+#main-container{
+    display: flex;
+    margin: 80px auto; 
+    justify-content: space-around;
+}
+#image-container{
+    width: 40%;
+    height: 100%;
+    margin: auto 80px auto 0;
+}
+#image-wrapper{
+    width: 100%;
+}
+#image-wrapper img{
+    width: 100%;
+}
+#form-container{
+    height: 100%;
+
+}
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin: 0 0 30px 0; 
+    color: rgb(100,100,100);
+}
+#form-container input, #form-container label, #form-container textarea, #form-container button{
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Cabin', sans-serif;
+    color: rgb(100,100,100);
+    font-size: 20px;
+}
+#form-container input, #form-container label, #form-container textarea {
+    width: 70%;
+}
+#submit, #cancel-btn{
+    display: inline-block!important;
+    margin: 30px 30px 0 0!important;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    border: 2px solid rgb(20,80,160);
+    color: rgb(20,80,160)!important;
+}
+#submit{
+    width: 30%!important;
+}
+#cancel-btn-wrapper {
+    display: inline-block!important;
+    margin: 30px 30px 0 0!important;
+    height: 50px;
+    width: 30%!important;
+}
+@media screen and (max-width: 900px){
+    #main-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    #image-container{
+        width: 80%;
+        height: 100%;
+        margin: 40px auto;
+    }
+    #form-container{
+        width: 100%;
+    }
+    #form-wrapper{
+        width: 70%;
+        margin: auto;
+    }
+    #form-container input, #form-container label, #form-container textarea {
+        width: 100%;
+    }
+}

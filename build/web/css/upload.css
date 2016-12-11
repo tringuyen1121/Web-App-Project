@@ -1,0 +1,84 @@
+body{
+    z-index: 100;
+}
+
+#upload-box{
+    width: 400px;
+    height: 140px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(100,100,100);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -65px;
+    display: none;
+    z-index: 1000;
+}
+
+#upload-text{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(100,100,100);
+    font-size: 40px;
+    padding: 10px 20px;
+    margin: 0;
+    display:inline-block;
+}
+.upload-wrapper{
+    overflow: hidden;
+}
+#upload-form{
+    padding: 20px 20px;
+    background-color: rgb(244,244,244);
+    text-align: center;
+}
+
+.button{
+    margin: 0 5px!important;
+    width: 25%!important;
+    height: 30px!important;
+    background-color: rgb(0,120,250)!important;
+    border:none!important;
+    font-family: 'Cabin', sans-serif!important;
+    color: white!important;
+    font-size: 15px!important;
+    cursor:pointer!important;
+}
+#upload-field{
+    display:none;	
+}
+#file-name{
+    display: inline-block;
+    margin: 0 5px;
+    height: 20px;
+    font-family: 'Cabin', sans-serif;
+    width: 224px;
+}
+
+#float-btn{
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(100,100,100);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#float-btn > a {
+    display: block;
+    height: 100%;
+}
+
+#float-btn a img {
+    height: 50%;
+    display: block;
+    margin: 10px auto;
+}

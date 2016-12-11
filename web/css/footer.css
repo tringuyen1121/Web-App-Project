@@ -1,0 +1,49 @@
+/* -------------------------------------------------------------------------
+                                    Footer
+---------------------------------------------------------------------------*/
+footer {
+    box-shadow: 0 -3px 10px #ddd;
+    padding: 25px 10px 20px 10px;
+    text-align: center;
+    background-color: white;
+}
+
+
+footer .logo img{
+    width: 40%;
+}
+
+.footer-col{
+    padding: 5px;
+}
+
+.footer-right{
+    flex: 2 100%;
+}
+
+.extra-links, .description, footer > p{
+    font-family: 'Cabin', sans-serif;
+}
+
+/* .description{
+        font-size: 13px;
+} */
+
+.extra-links{
+    list-style: none;
+    padding: 0;
+}
+
+.extra-links li{
+    margin: 10px;
+}
+
+.extra-links li a, .description, footer > p{
+    color: rgb(193,193,193);
+}
+
+@media (max-width: 800px){
+    footer .logo img{
+        width: 20%;
+    }
+}
