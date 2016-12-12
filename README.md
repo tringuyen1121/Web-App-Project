@@ -10,6 +10,9 @@
 3- A slide to this application's introduction:
 https://github.com/tringuyen1121/Web-App-Project/blob/master/Creatopia-Presentation.pptx
 
+4- Testing report
+https://github.com/tringuyen1121/Web-App-Project/blob/master/TestingReport.pdf
+
 
 
 
