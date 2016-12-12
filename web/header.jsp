@@ -48,7 +48,6 @@
                             <li><a href="User?search=<%= user.getUsername()%>">My Profile</a></li>
                             <li><a href="userSettings.jsp">Settings</a></li>
                             <li><a href="Logout.do">Log Out</a></li>
-                            <li><a href="GetAllImagesAsJSON?username=tringuyen1121">JSON</a></li>
                         </ul>
                     </li>
                 </ul> 
