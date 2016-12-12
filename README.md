@@ -8,6 +8,7 @@
 ![ScreenShot](https://raw.github.com/tringuyen1121/Web-App-Project/master/screenshots/screenshot2.jpg)
 
 3- A slide to this application's introduction:
+https://github.com/tringuyen1121/Web-App-Project/blob/master/Creatopia-Presentation.pptx
 
 
 
