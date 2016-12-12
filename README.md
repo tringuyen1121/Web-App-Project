@@ -4,7 +4,11 @@
 ## What is this project?
 "Creatopia" Web Application is about creatives, for creatives, and of creatives. It is a place where you show your works to the world or wander around for inspiration.
 
+Go and experience yourself with brand new Media sharing site.
+
 ## How to run it?
+In case you want to take a look at behind the scene. 
+
 Clone or download the project and run it in Netbeans. Create you server and connect it to Netbeans. You should use Apache for your server and install Glassfish (maybe either Tomcat, you can try) to run the application.
 
 You can either build your own database based on the database structure in the project, or use the available one. If you use your own database, make sure it has the similar structure to the available one, modify the host address in GetConnection class (in com.creatopia.dao folder), eg "mysql://10.114.32.20:3306". 
