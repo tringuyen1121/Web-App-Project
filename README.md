@@ -25,7 +25,4 @@ A slide to this application's introduction:
 https://github.com/tringuyen1121/Web-App-Project/blob/master/Creatopia-Presentation.pptx
 
 
-
-
-
-                                                      Welcome to CREATOPIA :)
+#####Welcome to CREATOPIA
