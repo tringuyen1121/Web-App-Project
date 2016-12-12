@@ -15,6 +15,7 @@ Run and Deploy the project.
 
 ## Screenshot
 Few screenshots for an overall look: 
+
 ![ScreenShot](https://raw.github.com/tringuyen1121/Web-App-Project/master/screenshots/screenshot1.jpg)
 ![ScreenShot](https://raw.github.com/tringuyen1121/Web-App-Project/master/screenshots/screenshot2.jpg)
 
